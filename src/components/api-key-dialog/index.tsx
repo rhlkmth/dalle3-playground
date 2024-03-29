@@ -53,7 +53,7 @@ export const APIKeyDialog = () => {
               className="col-span-3"
               id="apikey"
               required
-              type="password"
+              type="text"
               value={apiKey}
               onKeyDown={handleKeyPress}
               onChange={(e) => setAPIKey(e.target.value)}
